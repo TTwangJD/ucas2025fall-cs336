@@ -2,9 +2,10 @@
 
 All changes we make to the assignment code or PDF will be documented in this file.
 
-
 ## [1.0.5] 2025-04-15
 - code: Add submission script, fix typos
+- code: Use `uv_build` for the package build system
+- handout: Fix RoPE indexing
 
 ## [1.0.4] - 2025-04-08
 ### Added
