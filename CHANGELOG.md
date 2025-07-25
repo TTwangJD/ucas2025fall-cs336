@@ -6,6 +6,8 @@ All changes we make to the assignment code or PDF will be documented in this fil
 - code: Add submission script, fix typos
 - code: Use `uv_build` for the package build system
 - handout: Fix RoPE indexing
+- code: Fix test for truncated LM inputs
+- code: Ruff reformatting and linting
 
 ## [1.0.4] - 2025-04-08
 ### Added
