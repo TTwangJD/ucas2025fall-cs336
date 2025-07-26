@@ -21,7 +21,6 @@ dependencies = [
     "ty>=0.0.1a16",
 ]
 
-
 [build-system]
 requires = ["uv_build>=0.8.3,<0.9.0"]
 build-backend = "uv_build"
@@ -30,27 +29,21 @@ build-backend = "uv_build"
 module-name = "cs336_basics"
 module-root = ""
 
-
 [tool.uv]
 package = true
 python-preference = "managed"
-
-
 
 [tool.pytest.ini_options]
 log_cli = true
 log_cli_level = "WARNING"
 addopts = "-s"
 
-
 [tool.ruff]
 line-length = 120
-
 
 [tool.ruff.lint.extend-per-file-ignores]
 # Also ignore `E402` in all `__init__.py` files.
 "__init__.py" = ["E402", "F401", "F403", "E501"]
-
 
 [tool.ruff.lint]
 extend-select = ["UP"]
